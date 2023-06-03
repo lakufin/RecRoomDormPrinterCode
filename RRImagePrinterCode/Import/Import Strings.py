@@ -75,8 +75,7 @@ def insert(list,delay):
             exit()
         
         (index,string) = i
-        win32api.mouse_event(win32con.MOUSEEVENTF_RIGHTDOWN,0,0)
-        win32api.mouse_event(win32con.MOUSEEVENTF_RIGHTUP,0,0)
+        
         if keyboard.is_pressed('p'):
             sleep(5)
             while True:
@@ -106,6 +105,8 @@ def insert(list,delay):
         win32api.mouse_event(win32con.MOUSEEVENTF_LEFTDOWN,0,0)
         win32api.mouse_event(win32con.MOUSEEVENTF_LEFTUP,0,0)
         time.sleep(delay)
+        win32api.mouse_event(win32con.MOUSEEVENTF_RIGHTDOWN,0,0)
+        win32api.mouse_event(win32con.MOUSEEVENTF_RIGHTUP,0,0)
         
 
 
