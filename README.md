@@ -1,5 +1,5 @@
 # RRPrinterCode
-Check out my tutorial on YT Link: {insert link} 
+Check out my tutorial on YT Link: https://www.youtube.com/watch?v=oxP_p_HtTug
 
 Download repository as a .zip file
 
